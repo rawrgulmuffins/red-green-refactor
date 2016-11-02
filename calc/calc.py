@@ -123,6 +123,8 @@ class Calc:
         # Hint Assignment Two:
         #    This method will have to call `_consume_token` three times to get
         #    1+1 to work correctly.
+
+        consume(INTEGER)
         return_value = None
 
         # Rabbit Hole:
