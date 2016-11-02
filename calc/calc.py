@@ -122,8 +122,9 @@ class Calc:
         """
         # Hint Assignment Two:
         #    This method will have to call `_consume_token` three times to get
-        #    1+1 to work correctly.
-        left_token = self.consume(INTEGER)
+        #    1+1 to work correctly. You'll also need to call _next_token in
+        #    here.
+        left_token = self._consume_token(INTEGER)
 
         return_value = None
 
