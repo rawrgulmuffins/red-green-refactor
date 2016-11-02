@@ -120,7 +120,13 @@ class Calc:
             result (int): The numeric result of parsing the input text as a set
                 of arithmetic operations.
         """
-        # This method should make use of ``_consume_token``. For example usage
-        # of that method please see the ``test_calc_can_consume_valid_token``
-        # test in ``tests/test_calc.py`` on line #53.
-        pass
+        # Hint Assignment Two:
+        #    This method will have to call `_consume_token` three times to get
+        #    1+1 to work correctly.
+        return_value = None
+
+        # Rabbit Hole:
+        #    `calc/__main__.py` contains a function called `main()` that takes
+        #     the return value of this method and prints it to the console for
+        #     you. It also handles error raised on this calculator.
+        return return_value
